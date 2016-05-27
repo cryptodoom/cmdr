@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #title           : [C M D R] | Quick Command Copy
 #description     : Server-side Command Repository and Copy
+#version         : V - 0.5 - Alpha
 #author          : Josh Bray
 #site            : cryptodoom.com
 #date            : 06.27.16
