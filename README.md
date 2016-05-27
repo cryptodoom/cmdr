@@ -13,7 +13,7 @@ Server-side Command Repository and Copy
 
 3) Move cmdr.py to necessary location where you will need to access the script.
 
-'mv cmdr.py /path/to/location
+'mv cmdr.py /path/to/location'
 
 
 4) Run 'python cmdr.py'
