@@ -1,4 +1,3 @@
-# cmdr
 #[C M D R] | Quick Command Copy
 
 description     : Server-side Command Repository and Copy
