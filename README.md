@@ -3,6 +3,8 @@
 
 description     : Server-side Command Repository and Copy
 
+version         : V0.5
+
 author          : Josh Bray
 
 site            : cryptodoom.com
