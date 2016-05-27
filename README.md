@@ -2,7 +2,7 @@
 
 description     : Server-side Command Repository and Copy
 
-version         : V0.5
+version         : V - 0.5 - Alpha
 
 author          : Josh Bray
 
