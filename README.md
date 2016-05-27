@@ -1,6 +1,6 @@
 #[C M D R] | Quick Command Copy
 
-description     : Server-side Command Repository and Copy
+description     : Server-side Command/Text Repository and Copy
 
 version         : V - 0.5 - Alpha
 
@@ -24,7 +24,7 @@ python_version  : 2.7.6
 'python setup.py'
 
 
-2) Add your commands to the cmdr.py script.
+2) Add your text to the cmdr.py script.
 
 'nano cmdr.py'
 
