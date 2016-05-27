@@ -9,6 +9,7 @@
 #usage           : python cmdr.py
 #GitHub          : github.com/cryptodoom/cmdr
 #python_version  : 2.7.6
+###### S T A R T ######
 ### Imports
 # Data Structure
 import sys, os
@@ -33,20 +34,18 @@ def back():
 # Exit program
 def exit():
     sys.exit()
-###Style
+### Style
 class color:
    DARKCYAN = '\033[36m'
    END = '\033[0m'
-# =======================
-#     Category FUNCTIONS
-# =======================
+###### Category FUNCTIONS ######
 ### Title - Main Category Select
 def main_menu():
     os.system('clear')
     print
     print color.DARKCYAN + title + color.END
     print bar
-### List Categories
+# List Categories
     print "[a] Category Alpha"
     print "[b] Category Bravo"
     print "[c] Category Charlie"
@@ -68,9 +67,7 @@ def exec_menu(choice):
             print "Invalid selection, please try again.\n"
             menu_actions['main_menu']()
     return
-# =======================
-#       Categories
-# =======================
+###### Categories ######
 # Category One
 def category_alpha():
     print "Category Alpha - Title"
@@ -140,10 +137,7 @@ def category_charlie():
         print "Invalid selection, please try again.\n"
     exec_menu(choice)
     return
-# =======================
-#    Category/Direction
-# =======================
-# Choose Category Dictionary
+####### Category/Direction ######
 menu_actions = {
     'main_menu': main_menu,
     '<': back,
@@ -152,10 +146,7 @@ menu_actions = {
     'b': category_bravo,
     'c': category_charlie,
 }
-# =======================
-#      MAIN PROGRAM
-# =======================
-# Main Program
+###### Main Program ######
 if __name__ == "__main__":
     # Launch main menu
     main_menu()
