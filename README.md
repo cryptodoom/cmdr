@@ -1,5 +1,35 @@
 # cmdr
-Server-side Command Repository and Copy
+#title           : [C M D R] | Quick Command Copy
+
+#description     : Server-side Command Repository and Copy
+
+#author          : Josh Bray
+
+#site            : cryptodoom.com
+
+#date            : 06.27.16
+
+#usage           : python cmdr.py
+
+#GitHub          : github.com/cryptodoom/cmdr
+
+#python_version  : 2.7.6
+
+
+Needs Fixing:
+
+1) When in a category, can select another category.  This needs to be disabled so once on a category they have to chose a command or back/q.
+
+2) When command is selected and after copied to keyboard, program should quit and print 'command copied'.  As of now it returns to main screen.
+
+3) Need to figure out how to store/retreive awk/bash lines of commands without formatting/errors thrown.
+
+Needs Improving:
+
+1) The way the commands are stored.  May look at using a dictionary or mySQL for storage/retevial.
+
+
+INSTALLATION/RUN:
 
 1) On local machine run setup.py
 
