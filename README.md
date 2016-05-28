@@ -17,7 +17,7 @@ GitHub          : github.com/cryptodoom/cmdr
 python_version  : 2.7.6
 
 
-#Install/Run
+#Install/Run (Works on OSX/Linux) Win Coming Soon?
 
 1) On local machine run setup.py
 
